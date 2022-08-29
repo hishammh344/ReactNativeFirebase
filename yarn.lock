@@ -1619,7 +1619,7 @@
   "resolved" "https://registry.npmjs.org/@react-native-community/eslint-plugin/-/eslint-plugin-1.2.0.tgz"
   "version" "1.2.0"
 
-"@react-native-firebase/analytics@^15.4.0":
+"@react-native-firebase/analytics@^15.4.0", "@react-native-firebase/analytics@15.4.0":
   "integrity" "sha512-pshC2Po4Zfe5rafiexjK2lCpIGUq5Flc/swSbpvANGB64FBP3phxftQAwkO/F3sSL/I/uJTEsZ0GoKz3d1g0Jg=="
   "resolved" "https://registry.npmjs.org/@react-native-firebase/analytics/-/analytics-15.4.0.tgz"
   "version" "15.4.0"
@@ -1652,6 +1652,11 @@
   "version" "15.4.0"
   dependencies:
     "@expo/config-plugins" "^5.0.1"
+
+"@react-native-firebase/remote-config@^15.4.0":
+  "integrity" "sha512-jFdC2NT85fqvZFcT5BEY/CY4YlMZyEu7U8BksvYBMlrORalGpc/V/jgaZ7zJzjeBMrP6h8AutXKI3R/JVhgXSg=="
+  "resolved" "https://registry.npmjs.org/@react-native-firebase/remote-config/-/remote-config-15.4.0.tgz"
+  "version" "15.4.0"
 
 "@react-native/assets@1.0.0":
   "integrity" "sha512-KrwSpS1tKI70wuKl68DwJZYEvXktDHdZMG0k2AXD/rJVSlB23/X2CB2cutVR0HwNMJIal9HOUOBB2rVfa6UGtQ=="

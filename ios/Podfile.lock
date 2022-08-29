@@ -26,6 +26,9 @@ PODS:
   - Firebase/Performance (9.5.0):
     - Firebase/CoreOnly
     - FirebasePerformance (~> 9.5.0)
+  - Firebase/RemoteConfig (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 9.5.0)
   - FirebaseABTesting (9.5.0):
     - FirebaseCore (~> 9.0)
   - FirebaseAnalytics (9.5.0):
@@ -516,6 +519,10 @@ PODS:
     - Firebase/Performance (= 9.5.0)
     - React-Core
     - RNFBApp
+  - RNFBRemoteConfig (15.4.0):
+    - Firebase/RemoteConfig (= 9.5.0)
+    - React-Core
+    - RNFBApp
   - SocketRocket (0.6.0)
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
@@ -584,6 +591,7 @@ DEPENDENCIES:
   - "RNFBAppDistribution (from `../node_modules/@react-native-firebase/app-distribution`)"
   - "RNFBCrashlytics (from `../node_modules/@react-native-firebase/crashlytics`)"
   - "RNFBPerf (from `../node_modules/@react-native-firebase/perf`)"
+  - "RNFBRemoteConfig (from `../node_modules/@react-native-firebase/remote-config`)"
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -694,6 +702,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/@react-native-firebase/crashlytics"
   RNFBPerf:
     :path: "../node_modules/@react-native-firebase/perf"
+  RNFBRemoteConfig:
+    :path: "../node_modules/@react-native-firebase/remote-config"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -764,6 +774,7 @@ SPEC CHECKSUMS:
   RNFBAppDistribution: ad2bdd9fd3b3071d37a4a64e052d63c17af0af04
   RNFBCrashlytics: f94487c7fa1d8ea3628debaa24702629f2f1cd1f
   RNFBPerf: bcf032759cff704cd78722079ed1fd829352313f
+  RNFBRemoteConfig: 50c8c0ce66e46bfdc2e85cbc94946203f3bf9264
   SocketRocket: fccef3f9c5cedea1353a9ef6ada904fde10d6608
   Yoga: c2b1f2494060865ac1f27e49639e72371b1205fa
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a

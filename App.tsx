@@ -9,6 +9,7 @@
  */
 
 import React, {useEffect, type PropsWithChildren} from 'react';
+
 import {
   Button,
   SafeAreaView,
@@ -28,6 +29,7 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 import crashlytics from '@react-native-firebase/crashlytics';
+import remoteConfig from '@react-native-firebase/remote-config';
 
 const Section: React.FC<
   PropsWithChildren<{
@@ -68,6 +70,9 @@ const App = () => {
 
   useEffect(() => {
     crashlytics().log('App mounted.');
+    remoteConfig()
+      .fetchAndActivate()
+      .then(res => console.log(res));
   }, []);
 
   return (
